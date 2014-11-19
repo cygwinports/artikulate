@@ -1,10 +1,10 @@
 inherit kde4
 
 NAME="artikulate"
-VERSION=4.13.3
+VERSION=4.14.3
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE pronounciation trainer"
 DESCRIPTION="Artikulate is a pronunciation trainer that aims at improving and
 perfecting the pronunciation skills of the user."
-REQUIRES="kqtquickcharts"
+REQUIRES="kqtquickcharts gstreamer1.0-plugins-qt"
