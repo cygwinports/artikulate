@@ -4,7 +4,7 @@ NAME="artikulate"
 VERSION=15.04.3
 RELEASE=1
 CATEGORY="KDE"
-SUMMARY="KDE pronounciation trainer"
+SUMMARY="KDE pronunciation trainer"
 DESCRIPTION="Artikulate is a pronunciation trainer that aims at improving and
 perfecting the pronunciation skills of the user."
 REQUIRES="kqtquickcharts gstreamer1.0-plugins-qt"
