@@ -1,0 +1,36 @@
+--- origsrc/artikulate-16.08.3/libsound/src/qtgstreamerbackend/qtgstreamerbackend.h	2016-10-16 05:39:11.000000000 -0500
++++ src/artikulate-16.08.3/libsound/src/qtgstreamerbackend/qtgstreamerbackend.h	2016-11-10 18:54:15.047315300 -0600
+@@ -19,14 +19,13 @@
+ #define GSTREAMERBACKEND_H
+ 
+ #include "../backendinterface.h"
+-#include "libsound_export.h"
+ 
+ class CaptureBackendInterface;
+ class OutputBackendInterface;
+ class QtGStreamerCaptureBackend;
+ class QtGStreamerOutputBackend;
+ 
+-class LIBSOUND_EXPORT QtGStreamerBackend : public BackendInterface
++class QtGStreamerBackend : public BackendInterface
+ {
+     Q_OBJECT
+ 
+--- origsrc/artikulate-16.08.3/libsound/src/qtmultimediabackend/qtmultimediabackend.h	2016-10-16 05:39:11.000000000 -0500
++++ src/artikulate-16.08.3/libsound/src/qtmultimediabackend/qtmultimediabackend.h	2016-11-10 18:53:48.798983100 -0600
+@@ -19,14 +19,13 @@
+ #define QTMULTIMEDIABACKEND_H
+ 
+ #include "../backendinterface.h"
+-#include "libsound_export.h"
+ 
+ class CaptureBackendInterface;
+ class OutputBackendInterface;
+ class QtMultimediaCaptureBackend;
+ class QtMultimediaOutputBackend;
+ 
+-class LIBSOUND_EXPORT QtMultimediaBackend : public BackendInterface
++class QtMultimediaBackend : public BackendInterface
+ {
+     Q_OBJECT
+ 
